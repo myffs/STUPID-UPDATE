@@ -1,0 +1,41 @@
+{
+	"storyName": "Stickman's week - week 3",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stickman",
+	"weekBefore": "week2",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Icky-Stick",
+			"stickman",
+			[
+				220,
+				255,
+				255
+			]
+		],
+		[
+			"Sticked",
+			"stickman",
+			[
+				40,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "stickman's week"
+}

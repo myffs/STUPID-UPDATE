@@ -1,0 +1,41 @@
+{
+	"storyName": "This is for freeplay dumbass!",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Retro-Swag",
+			"droppy",
+			[
+				160,
+				0,
+				35
+			]
+		],
+		[
+			"Quads",
+			"coral",
+			[
+				206,
+				180,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Freeplay Songs"
+}
