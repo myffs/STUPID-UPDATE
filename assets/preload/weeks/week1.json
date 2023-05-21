@@ -1,4 +1,16 @@
 {
+	"storyName": "Stupid's Week - Week 1",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "stupid",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Knowledge",
@@ -22,29 +34,17 @@
 			"UnNatural-Substance",
 			"stupidmon",
 			[
+				40,
 				0,
-				0,
-				13
+				93
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "stupid",
-	"difficulties": "hard",
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"storyName": "Stupid's Week - Week 1",
-	"weekName": "Stupid's Week",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": false,
-	"weekBefore": "",
-	"startUnlocked": true
+	"hiddenUntilUnlocked": false,
+	"weekName": "Stupid's Week"
 }
