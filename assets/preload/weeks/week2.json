@@ -1,4 +1,16 @@
 {
+	"storyName": "Bubble's Week - Week 2",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "bubble",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Legacy",
@@ -11,32 +23,19 @@
 		],
 		[
 			"Animosity",
-			"stupidnor",
+			"bubble",
 			[
 				26,
 				33,
 				113
-		      ]
-        ]
-
-],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "bubble",
-	"difficulties": "normal",
+			]
+		]
+	],
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"storyName": "Bubble's Week - Week 2",
-	"weekName": "Bubble's Week",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": false,
-	"weekBefore": "",
-	"startUnlocked": true
+	"hiddenUntilUnlocked": false,
+	"weekName": "Bubble's Week"
 }
