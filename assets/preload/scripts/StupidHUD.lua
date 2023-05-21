@@ -1,9 +1,4 @@
--- hey there people! this lua script is all the hud for vs stupid! if you want to make this softcoded in a gb submission or something you can do so! you must credit tho!
-
--- enjoy!
-
-
-
+-- UI by rhy
 function onCreatePost() --everything written by Rhy
 
     makeLuaText('songName', "Song: ", 0, 15, 495) --song name
@@ -56,6 +51,8 @@ function onUpdatePost()
     setTextString('songName', "Song: ".. getPropertyFromClass(songName))
 
 end
+
+-- GHOST TRAIL by impostorm
 
 function getIconColor(chr)
 	return getColorFromHex(rgbToHex(getProperty(chr .. ".healthColorArray")))
