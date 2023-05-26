@@ -52,7 +52,7 @@ function onUpdatePost()
 
 end
 
--- GHOST TRAIL by impostorm
+-- GHOST TRAIL by IMPOSTORM
 
 function getIconColor(chr)
 	return getColorFromHex(rgbToHex(getProperty(chr .. ".healthColorArray")))

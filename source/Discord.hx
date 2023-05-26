@@ -18,7 +18,7 @@ class DiscordClient
 	{
 		trace("Discord Client starting...");
 		DiscordRpc.start({
-			clientID: "1086070385864343632",
+			clientID: "1111613273163448360",
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
@@ -43,9 +43,9 @@ class DiscordClient
 	static function onReady()
 	{
 		DiscordRpc.presence({
-			details: "In Menus",
+			details: "In The Menus",
 			state: null,
-			largeImageKey: 'Psych Engine', // if this shows psych engine as the text discription then change this / revert back
+			largeImageKey: 'clowfoe crazy', // if this shows psych engine as the text discription then change this / revert back
 			largeImageText: "Vs Stupid v1"
 		});
 	}
@@ -84,8 +84,8 @@ class DiscordClient
 		DiscordRpc.presence({
 			details: details,
 			state: state,
-			largeImageKey: 'iconOG',
-			largeImageText: "Psych Engine: " + MainMenuState.psychEngineVersion,
+			largeImageKey: 'clowfoe crazy',
+			largeImageText: "Vs Stupid: " + MainMenuState.psychEngineVersion,
 			smallImageKey : smallImageKey,
 			// Obtained times are in milliseconds so they are divided so Discord can use it
 			startTimestamp : Std.int(startTimestamp / 1000),

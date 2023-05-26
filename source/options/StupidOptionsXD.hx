@@ -34,7 +34,7 @@ class StupidOptionsXD extends BaseOptionsMenu
 	public function new()
 	{
 		title = 'Vs Stupid Options'; //additon to 'modes' menu ^^
-		rpcTitle = 'Vs Stupid Options Menu'; //for Discord Rich Presence
+		rpcTitle = 'Options Menu: Vs Stupid Options Menu'; //for Discord Rich Presence
 
 		var option:Option = new Option('Neutral Mode',
 			'If checked, This will enable modes: Easy,Normal,Hard',
