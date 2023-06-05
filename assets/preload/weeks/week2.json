@@ -3,14 +3,18 @@
 	"difficulties": "normal",
 	"hideFreeplay": false,
 	"weekBackground": "bubble",
-	"weekBefore": "",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Legacy",
@@ -29,13 +33,18 @@
 				33,
 				113
 			]
+		],
+		[
+			"Bubble Trouble",
+			"bubble",
+			[
+				0,
+				73,
+				255
+			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Bubble's Week"
+	"hideStoryMode": false,
+	"weekName": "Bubble's Week",
+	"hiddenUntilUnlocked": false
 }

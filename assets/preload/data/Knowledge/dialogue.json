@@ -4,9 +4,17 @@
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "HOLY SHIT YOU SCARED ME"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Stupidnor",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "Bro, gf where are we?"
+			"expression": "sad",
+			"text": "ma bad."
 		},
 		{
 			"sound": "",
@@ -14,63 +22,55 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "confused",
-			"text": "i have no clue..."
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "StupidNor",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Hi There!"
+			"text": "who actually ARE you?!"
 		},
 		{
 			"sound": "",
 			"speed": 0.01,
-			"portrait": "bf",
-			"boxState": "angry",
-			"expression": "shocked",
-			"text": "WHO THE ACTUAL FUCK ARE YOU AND HOW DID I GET HERE?!?!"
+			"portrait": "StupidNor",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "a pyramid of course. 😍"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "StupidNor",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Well, first i'm Stupid, or StupidNor, whichever one you like calling me. And second, you spawned in here."
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "excited",
+			"text": "LMAO THIS GUY IS SO FUCKIN FUNNY."
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "How did we spawn in here?"
+			"expression": "demon",
+			"text": "i could never take that. 😔"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "StupidNor",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "I don't really know to be honest, i just saw a portal in the distance"
+			"expression": "sad",
+			"text": "why are you guys so mean :("
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "StupidNor",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "It flew STRAIGHT towards my house ( behind you )"
+			"expression": "sad",
+			"text": "i just met yall"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "shocked",
-			"text": "Oh, ok. "
+			"expression": "pissed",
+			"text": "oh, i forgot. "
 		},
 		{
 			"sound": "",
@@ -78,7 +78,7 @@
 			"portrait": "StupidNor",
 			"boxState": "normal",
 			"expression": "excited",
-			"text": "Didn't destroy my house tho :P"
+			"text": "Didn't kill my house tho :P"
 		},
 		{
 			"sound": "",
@@ -86,7 +86,7 @@
 			"portrait": "bf",
 			"boxState": "angry",
 			"expression": "excited",
-			"text": "That's good. Anyway, Let's have a rap battle!"
+			"text": "anyways, let’s rap battle!"
 		},
 		{
 			"sound": "",
@@ -94,7 +94,7 @@
 			"portrait": "StupidNor",
 			"boxState": "normal",
 			"expression": "excited",
-			"text": "Okay then!"
+			"text": "ok but i still don’t know who you are :P"
 		}
 	]
 }

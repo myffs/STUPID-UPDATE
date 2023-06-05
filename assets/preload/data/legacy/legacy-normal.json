@@ -5432,12 +5432,12 @@
 		"events": [],
 		"player2": "Bubble",
 		"splashSkin": "noteSplashes",
-		"song": "Legacy",
+		"song": "legacy",
 		"needsVoices": true,
 		"arrowSkin": "",
 		"stage": "TheMountains",
 		"validScore": true,
 		"bpm": 206,
-		"speed": 4
+		"speed": 3.7
 	}
 }

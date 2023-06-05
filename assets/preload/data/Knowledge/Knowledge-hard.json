@@ -3749,12 +3749,12 @@
 		],
 		"gfVersion": "gf",
 		"splashSkin": "noteSplashes",
-		"song": "Knowledge",
+		"song": "KnowLedge",
 		"validScore": true,
 		"stage": "BlandTown",
 		"arrowSkin": "",
 		"needsVoices": true,
-		"speed": 4,
+		"speed": 3.7,
 		"bpm": 259
 	}
 }
