@@ -3754,7 +3754,7 @@
 		"stage": "BlandTown",
 		"arrowSkin": "",
 		"needsVoices": true,
-		"speed": 3.7,
+		"speed": 4,
 		"bpm": 259
 	}
 }
