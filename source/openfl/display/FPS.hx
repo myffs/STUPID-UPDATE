@@ -93,7 +93,7 @@ class FPS extends TextField
 			textColor = 0xFFFFFFFF;
 			if (memoryMegas > 3000 || currentFPS <= ClientPrefs.framerate / 2)
 			{
-				textColor = 0xFFFF0000;
+				textColor = 0xFFFF4A4A;
 			}
 
 			#if (gl_stats && !disable_cffi && (!html5 || !canvas))

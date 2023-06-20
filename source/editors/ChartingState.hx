@@ -119,12 +119,7 @@ class ChartingState extends MusicBeatState
 		],
 		['Set Property', "Value 1: Variable name\nValue 2: New value"],
 		['Cinematic bars', "Triggers Cinematic Bars\nValue 1: On/Off"],
-		[
-			'add BG character',
-			"Adds the character\nsprites and stuff\nValue 1: Sprite name\nSprite Library, I.e preload or shared
-			\nValue 2: Animated, and sprite stuff like\nSprite name\nPrefix\nFrameRate\nLooped\nFlipX\nFlipY"
-		],
-		['do BG character', 'Makes the character move']
+		['O2 Flash', "Triggers the o2 flash effect AUTOMATICALLY"] // why do i keep stealing vs impasta code into here :(
 	];
 
 	var _file:FileReference;
@@ -247,7 +242,7 @@ class ChartingState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("Currently Charting:", StringTools.replace(_song.song, '-', ' ')); // this'll look fucking
+		DiscordClient.changePresence("Charting:", StringTools.replace(_song.song, '-', ' ')); // this'll look fucking
 		#end
 
 		vortex = FlxG.save.data.chart_vortex;

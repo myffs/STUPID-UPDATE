@@ -53,7 +53,7 @@ class MainMenuState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In The Menus: Main Menu", null);
+		DiscordClient.changePresence("In The Menus", null);
 		#end
 		debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
 
@@ -94,8 +94,6 @@ class MainMenuState extends MusicBeatState
 		magenta.color = 0xFFfd719b;
 		add(magenta);
 		
-		// thank you, memehoovy for helping me with this code <3
-		// you're welcome <333
 		
 		var menuCharacter:FlxSprite = new FlxSprite(700).loadGraphic(Paths.image('StupidNor_MainMenu'));
 		menuCharacter.screenCenter(Y); // wowowowow

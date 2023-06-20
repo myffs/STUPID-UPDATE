@@ -150,7 +150,8 @@ class CharacterEditorState extends MusicBeatState
 		\nArrow Keys - Move Character Offset
 		\nT - Reset Current Offset
 		\nHold Shift to Move 10x faster\n".split('\n');
-
+		// \nHold CTRL to Move 50x faster\n.split('\n'); wanted to add this but probably would be a pain in the ass to code.
+		
 		for (i in 0...tipTextArray.length-1)
 		{
 			var tipText:FlxText = new FlxText(FlxG.width - 320, FlxG.height - 15 - 16 * (tipTextArray.length - i), 300, tipTextArray[i], 12);

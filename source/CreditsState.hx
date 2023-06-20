@@ -41,7 +41,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In The Menus: Credits", null);
+		DiscordClient.changePresence("In The Menus", null);
 		#end
 
 		persistentUpdate = true;
@@ -82,11 +82,13 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Vs Stupid Team'],
-			['MyFnf',		'fnf',		'Director',								'https://twitter.com/myfnf1698',	'367588'],
+			['MyFnf',		'fnf',		'Director',								'https://twitter.com/myfnf1698',	'FFFFFF'],
 			['MemeHoovy',		'meme',		'Main Programmer',								'https://twitter.com/meme_hoovy',	'FFFFFF'],
-			['Crazy Dany',		'dany',		'Main Artist',								'',	'808080'],
-			['TarnSpill',		'',		'Artist',								'',	'800080'],
-			['The Nose',		'thenose',		'Artist, and Musician',								'',	'FFFFFF']
+			['JoseDev1664',		'jose',		'Artist',								'',	'FFFFFF'],
+			['Crazy Dany',		'dany',		'Main Artist',								'',	'FFFFFF'],
+			['KillerAvecRage',		'discord',		'Charter',								'',	'FFFFFF'],
+			['The Nose',		'thenose',		'Artist, and Musician',								'',	'FFFFFF'],
+			['Voosomni',		'discord',		'Artist',								'',	'FFFFFF']
 
 
 		];

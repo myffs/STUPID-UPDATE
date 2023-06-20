@@ -61,7 +61,7 @@ class FreeplayState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In The Menus: Freeplay Menu", null);
+		DiscordClient.changePresence("In The Menus", null);
 		#end
 
 		for (i in 0...WeekData.weeksList.length) {

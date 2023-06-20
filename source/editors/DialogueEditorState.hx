@@ -231,9 +231,9 @@ class DialogueEditorState extends MusicBeatState
 		}
 	}
 
-	private static var DEFAULT_TEXT:String = "ligma balls >:]";
+	private static var DEFAULT_TEXT:String = "JoseDev1664 is a dick rider.";
 	private static var DEFAULT_SPEED:Float = 0.05;
-	private static var DEFAULT_BUBBLETYPE:String = "normal";
+	private static var DEFAULT_BUBBLETYPE:String = "excited"; // bros excited
 	function reloadText(skipDialogue:Bool) {
 		var textToType:String = lineInputText.text;
 		if(textToType == null || textToType.length < 1) textToType = ' ';

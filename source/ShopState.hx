@@ -1,4 +1,4 @@
-package; // DONT USE YET PLEASE
+package;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -46,7 +46,6 @@ class ShopState extends MusicBeatState
         playerMoney = 0;
     }
     
-    // coltin I swear to god
     override public function update(elapsed:Float):Void
     {
         super.update(elapsed);
