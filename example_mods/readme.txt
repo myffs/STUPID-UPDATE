@@ -1,1 +1,0 @@
-I don't like using mods folder, just fucking deal with it 😏.
