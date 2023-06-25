@@ -1144,12 +1144,12 @@ class PlayState extends MusicBeatState
 			botplayTxt.y = timeBarBG.y - 78;
 		}
 
-		/*switch(Clientprefs.botPlayType.toUpperCase()){
+		  switch(Clientprefs.botPlayType.toUpperCase()){
 			case "SHOWCASE":
 			  BotplayTxt.text = "SHOWCASE";
 			default:
 			  BotplayTxt.text = "BOTPLAY";
-		  }*/
+		  } //might test this soon
 
 		strumLineNotes.cameras = [camHUD];
 		grpNoteSplashes.cameras = [camHUD];
@@ -2362,7 +2362,7 @@ class PlayState extends MusicBeatState
 	{
 		scoreTxt.text = 'Score: ' + songScore
 		+ ' | Combo Breaks: ' + songMisses 
-		+ ' | Accuracy: ' + ratingName
+		+ ' | Rating: ' + ratingName //wanted it to fit the ratingText
 		+ (ratingName != '...' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 
 		if(ClientPrefs.scoreZoom && !miss && !cpuControlled)
@@ -5348,7 +5348,7 @@ class PlayState extends MusicBeatState
 			ratingFC = "";
 			if (sicks > 0) ratingFC = "SFC";
 			if (goods > 0) ratingFC = "GFC";
-			if (bads > 0 || shits > 0) ratingFC = "FC";
+			if (bads > 0 || shits > 0) ratingFC = "BFC"; //idrk.
 			if (songMisses > 0 && songMisses < 10) ratingFC = "SDCB";
 			else if (songMisses >= 10) ratingFC = "Clear";
 		}
