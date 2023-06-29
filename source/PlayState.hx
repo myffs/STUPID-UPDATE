@@ -1144,12 +1144,12 @@ class PlayState extends MusicBeatState
 			botplayTxt.y = timeBarBG.y - 78;
 		}
 
-		  switch(Clientprefs.botPlayType.toUpperCase()){
+		switch(ClientPrefs.botPlayType.toUpperCase()){
 			case "SHOWCASE":
-			  BotplayTxt.text = "SHOWCASE";
+				botplayTxt.text = "SHOWCASE";
 			default:
-			  BotplayTxt.text = "BOTPLAY";
-		  } //might test this soon
+				botplayTxt.text = "BOTPLAY";
+		} //might test this soon
 
 		strumLineNotes.cameras = [camHUD];
 		grpNoteSplashes.cameras = [camHUD];
