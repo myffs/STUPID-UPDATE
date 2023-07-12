@@ -28,14 +28,6 @@ function onCreatePost() --everything written by Rhy
     setTextColor('ratingName', 'FF000000')
     addLuaText('ratingName', "Rating: ", 0, 150, 150)
     setObjectCamera('ratingName', 'other')
-
-    makeLuaText('difficultyName', "Difficulty: ", 0, 15, 455) --ratingFC
-    setTextSize('difficultyName', 24)
-    setTextFont('difficultyName', 'PhantomMuff.ttf')
-    setTextColor('difficultyName', 'FF000000')
-    addLuaText('difficultyName', "Difficulty: ", 0, 150, 150)
-    setObjectCamera('difficultyName', 'other')
-
 end
 
 function onUpdatePost()
