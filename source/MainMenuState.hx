@@ -34,8 +34,13 @@ class MainMenuState extends MusicBeatState
 	
 	var optionShit:Array<String> = [
 		'story_mode',
+		
 		'freeplay',
+		
+		'shop',
+		
 		'credits',
+		
 		'options'
 	];
 
@@ -95,7 +100,7 @@ class MainMenuState extends MusicBeatState
 		add(magenta);
 		
 		
-		var menuCharacter:FlxSprite = new FlxSprite(700).loadGraphic(Paths.image('StupidNor_MainMenu'));
+		var menuCharacter:FlxSprite = new FlxSprite(700).loadGraphic(Paths.image('fire'));
 		menuCharacter.screenCenter(Y); // wowowowow
 		menuCharacter.scrollFactor.set(0, 0);
 		add(menuCharacter);
