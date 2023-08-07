@@ -24,9 +24,9 @@ class FlashingState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"This mod has flashing lights lmao.", // took awhile to figure this out
-			32);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+			"This mod has contains a virus, opening freeplay will active it",
+			16);
+		warnText.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
 	}
