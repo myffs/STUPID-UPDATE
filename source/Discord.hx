@@ -18,7 +18,7 @@ class DiscordClient
 	{
 		trace("Discord Client starting...");
 		DiscordRpc.start({
-			clientID: "1120702408503328809",
+			clientID: "1137927400378867794",
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
@@ -46,7 +46,7 @@ class DiscordClient
 			details: "In The Menus",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "Vs. Stupid"
+			largeImageText: "sexualized homophobic disorder"
 		});
 	}
 
